@@ -1,0 +1,33 @@
+{
+  "name": "sharpfrog-site",
+  "version": "0.0.1",
+  "description": "sharpfrog ltd site",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint index.js",
+    "validate-travis": "travis lint ./.travis.yml"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "sharpfrog ltd",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "express": "^4.14.0",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "6.11.4",
+    "babel-loader": "6.2.4",
+    "babel-plugin-transform-class-properties": "^6.11.5",
+    "babel-plugin-transform-object-assign": "6.8.0",
+    "babel-polyfill": "6.9.1",
+    "babel-preset-es2015": "6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-register": "^6.11.6",
+    "jshint": "^2.9.2",
+    "webpack": "1.13.1"
+  }
+}
